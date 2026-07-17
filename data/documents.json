@@ -35,6 +35,54 @@
       "summary": "Official student waiver confirming my eligibility to attend my OJT program.",
       "tags": ["student", "waiver", "official"],
       "downloads": 0
+    },
+    {
+      "id": "ROMERO_CONSENT_FORM.pdf",
+      "title": "ROMERO Consent Form",
+      "description": "Consent Form for my on-the-job training agreement.",
+      "status": "in progress",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_CONSENT_FORM.pdf",
+      "date": "2026-07-17",
+      "summary": "My consent form confirming my guardian's approval of my OJT work.",
+      "tags": ["consent", "form", "official"],
+      "downloads": 0
+    },
+    {
+      "id": "ROMERO_INTERNSHIP_AGREEMENT.pdf",
+      "title": "ROMERO Internship Agreement",
+      "description": "Internship Agreement for my on-the-job training agreement.",
+      "status": "in progress",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_INTERNSHIP_AGREEMENT.pdf",
+      "date": "2026-07-17",
+      "summary": "Official internship agreement confirming my eligibility to work at Jump Solutions Inc.",
+      "tags": ["internship", "agreement", "official"],
+      "downloads": 0
+    },
+    {
+      "id": "ROMERO_MOA.pdf",
+      "title": "ROMERO MOA",
+      "description": "Memorandum of Agreement for my on-the-job training agreement.",
+      "status": "in progress",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_MOA.pdf",
+      "date": "2026-07-17",
+      "summary": "Official MOA confirming the agreement between my HTE and PUP",
+      "tags": ["MOA", "memorandum", "agreement", "official"],
+      "downloads": 0
+    },
+    {
+      "id": "ROMERO_RESUME.pdf",
+      "title": "ROMERO Resume",
+      "description": "Resume for my on-the-job training agreement.",
+      "status": "in progress",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_RESUME.pdf",
+      "date": "2026-07-17",
+      "summary": "The resume I passed to the HTE for application.",
+      "tags": ["resume", "cv", "curriculum", "vitae", "official"],
+      "downloads": 0
     }
   ]
 }

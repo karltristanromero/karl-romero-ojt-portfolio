@@ -1,26 +1,15 @@
 {
   "logs": [
     {
-      "id": "week-12",
-      "weekNumber": 12,
-      "weekStarting": "2026-06-09",
-      "weekEnding": "2026-06-15",
-      "hours": 40,
-      "content": "Final week of OJT! Completed the collaborative markdown editor capstone project. Implemented CRDT-based conflict resolution using Yjs, offline support with IndexedDB persistence, and peer-to-peer sync via WebRTC. Wrote comprehensive documentation including architecture decisions, API reference, and user guide. Presented final demo to team and mentor - received excellent feedback on technical depth and presentation clarity. Completed final evaluation meeting, received completion certificate with Grade A. Prepared handover documentation for the project. Emotional farewell to an incredible journey was transformative - grew from junior intern to confident full-stack developer.",
-      "tags": ["project", "reflection", "completion"],
-      "documentationUrl": "../../assets/weekly-logs/week-12-docs.pdf",
-      "weeklyReportUrl": "../../assets/weekly-logs/week-12-report.pdf"
-    },
-    {
-      "id": "week-11",
-      "weekNumber": 11,
-      "weekStarting": "2026-06-02",
-      "weekEnding": "2026-06-08",
-      "hours": 38,
-      "content": "Capstone project in final stretch. Integrated Yjs for real-time collaboration - CRDT implementation handles concurrent edits beautifully. Added IndexedDB layer for offline-first architecture using Dexie.js. Implemented WebRTC signaling for peer-to-peer sync when backend unavailable. Wrote unit tests for conflict resolution logic (85% coverage). Started final documentation: architecture decision records, setup guide, API docs. Mentor reviewed code - minor suggestions on error boundaries and loading states. Prepared for final demo next week.",
-      "tags": ["project", "learning"],
-      "documentationUrl": "../../assets/weekly-logs/week-11-docs.pdf",
-      "weeklyReportUrl": "../../assets/weekly-logs/week-11-report.pdf"
+      "id": "week-1",
+      "weekNumber": 1,
+      "weekStarting": "2026-07-02",
+      "weekEnding": "2026-07-03",
+      "hours": 16,
+      "content": "Orientation and Introduction to the Company",
+      "tags": ["introduction", "orientation"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_1.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_1.pdf"
     }
   ]
 }
