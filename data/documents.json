@@ -1,0 +1,40 @@
+{
+  "documents": [
+    {
+      "id": "ROMERO_LOE.pdf",
+      "title": "ROMERO Letter of Endorsement",
+      "description": "Official letter of endorsement documentation for my OJT program.",
+      "status": "completed",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_LOE.pdf",
+      "date": "2026-07-17",
+      "summary": "Endorsement letter issued by our OJT Adviser confirming my OJT placement and responsibilities.",
+      "tags": ["letter", "employment", "official"],
+      "downloads": 0
+    },
+    {
+      "id": "ROMERO_LOI.pdf",
+      "title": "ROMERO Letter of Intent",
+      "description": "Letter of intent for my on-the-job training agreement.",
+      "status": "completed",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_LOI.pdf",
+      "date": "2026-07-17",
+      "summary": "Official letter confirming intent to participate in the OJT program and outlining training goals.",
+      "tags": ["letter", "intent", "official"],
+      "downloads": 0
+    },
+    {
+      "id": "ROMERO_WAIVER.pdf",
+      "title": "ROMERO Waiver",
+      "description": "Student Waiver for my on-the-job training agreement.",
+      "status": "in progress",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_WAIVER.pdf",
+      "date": "2026-07-17",
+      "summary": "Official student waiver confirming my eligibility to attend my OJT program.",
+      "tags": ["student", "waiver", "official"],
+      "downloads": 0
+    }
+  ]
+}

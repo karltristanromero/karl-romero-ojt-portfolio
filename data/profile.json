@@ -1,0 +1,19 @@
+{
+  "name": "Karl",
+  "greeting": "Hey there!",
+  "bio": "Welcome to my OJT portfolio! I'm documenting my On-the-Job Training journey with creativity, growth, and a touch of bohemian spirit. Here you'll find my weekly logs, important documents, and reflections on my professional development.",
+  "role": "Web Development Intern",
+  "company": "TechCorp Solutions",
+  "duration": "January - June 2026",
+  "mentor": "Sarah Chen, Senior Frontend Engineer",
+  "stats": [
+    { "value": "12", "label": "Weeks Completed" },
+    { "value": "48", "label": "Hours Logged" },
+    { "value": "15", "label": "Documents" }
+  ],
+  "skills": {
+    "frontend": ["HTML5", "CSS3", "JavaScript (ES6+)", "React", "Vue.js", "Tailwind CSS", "Responsive Design", "Accessibility (a11y)"],
+    "tools": ["Git & GitHub", "VS Code", "Figma", "npm/yarn", "Vite", "ESLint/Prettier", "Chrome DevTools", "Postman"],
+    "learning": ["TypeScript", "Node.js", "REST APIs", "Testing (Jest)", "CI/CD", "Docker Basics", "GraphQL", "Next.js"]
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Weekly logs from my OJT journey - reflections, learnings, and progress tracking.">
+  <meta name="theme-color" content="#8BB36B">
+  <title>Weekly Logs | Karl's OJT Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body class="weekly-logs-page">
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+
+  <!-- Main Content -->
+  <main class="main" role="main">
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="page-header-inner">
+        <h1 class="page-title">Weekly Logs</h1>
+        <p class="page-description">
+          Weekly reflections on my OJT journey — what I learned, challenges I faced, and progress made.
+          Updated every week with new insights.
+        </p>
+      </div>
+    </header>
+
+    <section class="weekly-logs section weekly-logs-main">
+      <div class="container">
+        <!-- Intro -->
+        <p class="weekly-logs-intro" id="weekly-logs-intro">
+          Loading weekly logs...
+        </p>
+
+        <!-- Summary Stats -->
+        <div class="logs-summary" id="logs-summary" aria-label="Weekly logs summary">
+          <!-- Stats rendered by JS -->
+        </div>
+
+        <!-- Week Selector -->
+        <div class="logs-filters" role="group" aria-label="Select a specific week">
+          <label class="logs-filter-label" for="week-select">Jump to week</label>
+          <select id="week-select" class="logs-filter-select" aria-label="Select a week">
+            <option value="all">All weeks</option>
+          </select>
+        </div>
+
+        <!-- Timeline View -->
+        <div class="logs-timeline" id="logs-timeline" role="list" aria-label="Weekly logs timeline">
+          <!-- Log entries rendered by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="../js/components.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/pages.js"></script>
+</body>
+</html>

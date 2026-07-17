@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Important documents from my OJT portfolio - certificates, reports, and project deliverables.">
+  <meta name="theme-color" content="#8BB36B">
+  <title>Documents | Karl's OJT Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body class="documents-page">
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+
+  <!-- Main Content -->
+  <main class="main" role="main">
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="page-header-inner">
+        <h1 class="page-title">Important Documents</h1>
+        <p class="page-description">
+          A collection of certificates, project reports, and key deliverables from my OJT journey.
+          Filter by category or search to find what you need.
+        </p>
+      </div>
+    </header>
+
+    <section class="documents section documents-main">
+      <div class="container">
+        <!-- Intro -->
+        <p class="documents-intro" id="documents-intro">
+          Loading documents...
+        </p>
+
+        <!-- Stats -->
+        <div class="documents-stats" id="documents-stats" aria-label="Document statistics">
+          <!-- Stats rendered by JS -->
+        </div>
+
+        <!-- Toolbar -->
+        <div class="documents-toolbar" role="search" aria-label="Document filters and search">
+          <div class="documents-search">
+            <span class="documents-search-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </span>
+            <input type="search" class="documents-search-input" placeholder="Search documents..." aria-label="Search documents" autocomplete="off">
+          </div>
+          <div class="documents-filters" role="group" aria-label="Filter by category">
+            <!-- Filters rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Documents Grid -->
+        <div class="documents-grid" id="documents-grid" role="list" aria-label="Documents">
+          <!-- Documents rendered by JS -->
+        </div>
+
+        <!-- Categories View (Alternative) -->
+        <div class="document-categories" id="document-categories" hidden>
+          <!-- Category sections rendered by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="../js/components.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/pages.js"></script>
+</body>
+</html>
