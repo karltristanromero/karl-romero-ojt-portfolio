@@ -1,5 +1,16 @@
 {
-  "logs": [
+    "logs": [
+    {
+    "id": "week-2",
+    "weekNumber": 2,
+    "weekStarting": "2026-07-06",
+    "weekEnding": "2026-07-10",
+    "hours": 40,
+    "content": "Online Certifications and About Me Presentation",
+    "tags": ["introduction", "orientation"],
+    "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCU_2.pdf",
+    "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_2.pdf"
+    },
     {
       "id": "week-1",
       "weekNumber": 1,
@@ -8,7 +19,7 @@
       "hours": 16,
       "content": "Orientation and Introduction to the Company",
       "tags": ["introduction", "orientation"],
-      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_1.pdf",
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCU_1.pdf",
       "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_1.pdf"
     }
   ]
