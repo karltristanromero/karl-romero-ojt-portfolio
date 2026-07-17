@@ -68,11 +68,12 @@ const Components = (function() {
   function renderHeader() {
     const currentPage = getCurrentPage();
     const navItems = config.navigation.map(item => {
-      const isActive = (currentPage === 'index' && item.href === 'index.html') ||
-                       (currentPage !== 'index' && item.href === `${currentPage}.html`);
+      const resolvedHref = resolvePageHref(item.href);
+      const isActive = (currentPage === 'index' && resolvedHref.endsWith('index.html')) ||
+                       (currentPage !== 'index' && resolvedHref.endsWith(`${currentPage}.html`));
       return `
         <li>
-          <a href="${item.href}" class="nav-link ${isActive ? 'active' : ''}" ${isActive ? 'aria-current="page"' : ''}>
+          <a href="${resolvedHref}" class="nav-link ${isActive ? 'active' : ''}" ${isActive ? 'aria-current="page"' : ''}>
             ${icons[item.icon]}
             ${item.label}
           </a>
@@ -83,7 +84,7 @@ const Components = (function() {
     return `
       <header class="header" role="banner">
         <div class="header-inner">
-          <a href="index.html" class="logo" aria-label="${config.siteName} - Home">
+          <a href="${resolvePageHref('index.html')}" class="logo" aria-label="${config.siteName} - Home">
             <span class="logo-icon" aria-hidden="true">${icons.technology}</span>
             <span class="logo-text">${config.shortName}<span class="logo-accent">.</span></span>
           </a>
@@ -117,7 +118,7 @@ const Components = (function() {
         <div class="footer-inner">
           <div class="footer-grid">
             <div class="footer-brand">
-              <a href="index.html" class="footer-logo" aria-label="${config.siteName} - Home">
+              <a href="${resolvePageHref('index.html')}" class="footer-logo" aria-label="${config.siteName} - Home">
                 <span class="logo-icon" aria-hidden="true">${icons.technology}</span>
                 <span class="logo-text">${config.shortName}<span class="logo-accent">.</span></span>
               </a>
@@ -127,9 +128,9 @@ const Components = (function() {
             <div class="footer-column">
               <h4>Quick Links</h4>
               <ul class="footer-links">
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="documents.html">Documents</a></li>
-                <li><a href="weekly-logs.html">Weekly Logs</a></li>
+                <li><a href="${resolvePageHref('index.html')}">About Me</a></li>
+                <li><a href="${resolvePageHref('documents.html')}">Documents</a></li>
+                <li><a href="${resolvePageHref('weekly-logs.html')}">Weekly Logs</a></li>
               </ul>
             </div>
 
@@ -281,9 +282,16 @@ const Components = (function() {
   // ==========================================================================
 
   function getCurrentPage() {
-    const path = window.location.pathname;
-    const page = path.split('/').pop() || 'index.html';
-    return page.replace('.html', '');
+    const path = window.location.pathname.replace(/\/+$/, '');
+    const page = path.split('/').pop() || 'index';
+    return page === '' ? 'index' : page.replace('.html', '');
+  }
+
+  function resolvePageHref(href) {
+    if (href === 'index.html') return '/';
+    if (href === 'documents.html') return '/src/html/documents.html';
+    if (href === 'weekly-logs.html') return '/src/html/weekly-logs.html';
+    return href;
   }
 
   function escapeHtml(text) {

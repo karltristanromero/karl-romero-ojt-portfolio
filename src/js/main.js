@@ -92,9 +92,9 @@ function smoothScrollTo(target, offset = AppConfig.scrollOffset) {
  * Get current page name from URL
  */
 function getCurrentPage() {
-  const path = window.location.pathname;
-  const page = path.split('/').pop() || 'index.html';
-  return page.replace('.html', '');
+  const path = window.location.pathname.replace(/\/+$/, '');
+  const page = path.split('/').pop() || 'index';
+  return page === '' ? 'index' : page.replace('.html', '');
 }
 
 /**
