@@ -291,7 +291,7 @@ function renderLogs(logs, container) {
 }
 
 function renderLogEntry(log, index) {
-  const weekLabel = `Week ${getWeekNumber(log.weekEnding)}`;
+  const weekLabel = `Week ${log.weekNumber}`;
   const dateRange = formatWeekRange(log.weekStarting, log.weekEnding);
   const hours = log.hours || 0;
 
@@ -307,7 +307,7 @@ function renderLogEntry(log, index) {
   }
 
   return `
-    <article class="log-entry" data-week="${getWeekNumber(log.weekEnding)}" style="animation-delay: ${index * 100}ms">
+    <article class="log-entry" data-week="${log.weekNumber}" style="animation-delay: ${index * 100}ms">
       <div class="log-entry-marker" aria-hidden="true"></div>
       <div class="log-entry-card card">
         <header class="log-entry-header">
@@ -346,7 +346,7 @@ function initLogsFilters(logs, container) {
   const select = document.querySelector('.logs-filter-select');
   if (!filterContainer || !select) return;
 
-  const weeks = [...new Set(logs.map(log => getWeekNumber(log.weekEnding)).sort((a, b) => a - b))];
+  const weeks = [...new Set(logs.map(log => log.weekNumber).sort((a, b) => a - b))];
   select.innerHTML = '<option value="all">All weeks</option>' + weeks.map(week => `
     <option value="${week}">Week ${week}</option>
   `).join('');
