@@ -21,6 +21,28 @@
       "tags": ["introduction", "orientation"],
       "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCU_1.pdf",
       "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_1.pdf"
+    },
+    {
+      "id": "week-2",
+      "weekNumber": 2,
+      "weekStarting": "2026-07-06",
+      "weekEnding": "2026-07-10",
+      "hours": 40,
+      "content": "Introduction to administrative works",
+      "tags": ["introduction", "administrative", "documentation", "certification"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_2.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_2.pdf"
+    },
+    {
+      "id": "week-3",
+      "weekNumber": 3,
+      "weekStarting": "2026-07-13",
+      "weekEnding": "2026-07-17",
+      "hours": 40,
+      "content": "First offsite activity conducted with the networking department",
+      "tags": ["offsite", "networking", "heatmapping", "site survey"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_3.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_3.pdf"
     }
   ]
 }
