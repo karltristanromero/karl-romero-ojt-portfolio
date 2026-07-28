@@ -32,6 +32,17 @@
       "tags": ["offsite", "networking", "heatmapping", "site survey"],
       "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_3.pdf",
       "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_3.pdf"
+    },
+    {
+      "id": "week-4",
+      "weekNumber": 4,
+      "weekStarting": "2026-07-20",
+      "weekEnding": "2026-07-24",
+      "hours": 40,
+      "content": "An in-depth review of Data Centers (DC), as well as heatmapping.",
+      "tags": ["Data Center", "Data", "Center", "Virtual Machines", "VM", "heatmap"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_4.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_4.pdf"
     }
   ]
 }
