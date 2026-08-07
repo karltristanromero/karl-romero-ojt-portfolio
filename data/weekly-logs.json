@@ -54,6 +54,17 @@
       "tags": ["Cisco", "Switch", "Aruba", "Networking", "Physical", "Cisco Packet Tracer"],
       "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_5.pdf",
       "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_5.pdf"
+    },
+    {
+      "id": "week-6",
+      "weekNumber": 6,
+      "weekStarting": "2026-08-03",
+      "weekEnding": "2026-08-07",
+      "hours": 40,
+      "content": "Joined with the Implementations team on upgrading their client's server room and took NSE-1 of Fortinet's Training Institute.",
+      "tags": ["Fortinet", "NSE-1", "Implementations", "Server", "Data Center", "client"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_6.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_6.pdf"
     }
   ]
 }
