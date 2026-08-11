@@ -16,7 +16,7 @@
       "weekNumber": 2,
       "weekStarting": "2026-07-06",
       "weekEnding": "2026-07-10",
-      "hours": 40,
+      "hours": 39.4,
       "content": "Online Certifications and About Me Presentation",
       "tags": ["introduction", "orientation"],
       "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_2.pdf",
@@ -27,7 +27,7 @@
       "weekNumber": 3,
       "weekStarting": "2026-07-13",
       "weekEnding": "2026-07-17",
-      "hours": 40,
+      "hours": 36,
       "content": "First offsite activity conducted with the networking department",
       "tags": ["offsite", "networking", "heatmapping", "site survey"],
       "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_3.pdf",
@@ -38,11 +38,33 @@
       "weekNumber": 4,
       "weekStarting": "2026-07-20",
       "weekEnding": "2026-07-24",
-      "hours": 40,
+      "hours": 35.8,
       "content": "An in-depth review of Data Centers (DC), as well as heatmapping.",
       "tags": ["Data Center", "Data", "Center", "Virtual Machines", "VM", "heatmap"],
       "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_4.pdf",
       "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_4.pdf"
+    },
+    {
+      "id": "week-5",
+      "weekNumber": 5,
+      "weekStarting": "2026-07-27",
+      "weekEnding": "2026-07-31",
+      "hours": 40,
+      "content": "Applied my Cisco Packet Tracer skills on actual switch devices using Aruba and Cisco.",
+      "tags": ["Cisco", "Switch", "Aruba", "Networking", "Physical", "Cisco Packet Tracer"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_5.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_5.pdf"
+    },
+    {
+      "id": "week-6",
+      "weekNumber": 6,
+      "weekStarting": "2026-08-03",
+      "weekEnding": "2026-08-07",
+      "hours": 40,
+      "content": "Joined with the Implementations team on upgrading their client's server room and took NSE-1 of Fortinet's Training Institute.",
+      "tags": ["Fortinet", "NSE-1", "Implementations", "Server", "Data Center", "client"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_6.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_6.pdf"
     }
   ]
 }
