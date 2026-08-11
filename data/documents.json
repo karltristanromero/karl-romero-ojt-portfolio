@@ -93,7 +93,9 @@
       "filePath": "../../assets/documents/ROMERO_APPROVAL_SHEET.pdf",
       "date": "2026-08-11",
       "summary": "The approval letter Jump Solutions gave to me.",
-      "tags": ["approval", "letter", "acceptance"],
+      "tags": ["approval", "letter", "acceptance"]
+    },
+    {
       "id": "ROMERO_INSURANCE.pdf",
       "title": "Insurance",
       "description": "An accidental insurance recently issued with a one (1) year validity",
