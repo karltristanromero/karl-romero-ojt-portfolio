@@ -83,6 +83,18 @@
       "summary": "The resume I passed to the HTE for application.",
       "tags": ["resume", "cv", "curriculum", "vitae", "official"],
       "downloads": 0
+    },
+    {
+      "id": "ROMERO_APPROVAL_SHEET.pdf",
+      "title": "ROMERO Approval Sheet",
+      "description": "Official letter of approval upon my admission to Jump Solutions Inc.",
+      "status": "in progress",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_APPROVAL_SHEET.pdf",
+      "date": "2026-08-11",
+      "summary": "The approval letter Jump Solutions gave to me.",
+      "tags": ["approval", "letter", "acceptance"],
+      "downloads": 0
     }
   ]
 }
