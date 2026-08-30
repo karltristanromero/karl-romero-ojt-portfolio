@@ -76,6 +76,17 @@
       "tags": ["Fortinet", "FortiGate", "Firewall", "configuration", "configure"],
       "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_7.pdf",
       "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_7.pdf"
+    },
+    {
+      "id": "week-8-9",
+      "weekNumber": 8,
+      "weekStarting": "2026-08-20",
+      "weekEnding": "2026-08-27",
+      "hours": 16,
+      "content": "Mainly configured FortiGate's firewall via its GUI interface",
+      "tags": ["Fortinet", "FortiGate", "Firewall", "configuration", "configure"],
+      "documentationUrl": "../../assets/weekly-logs/ROMERO_DOCUMENTATION_8-9.pdf",
+      "weeklyReportUrl": "../../assets/weekly-logs/ROMERO_REPORT_8-9.pdf"
     }
   ]
 }
