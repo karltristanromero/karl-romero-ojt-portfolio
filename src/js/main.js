@@ -558,6 +558,7 @@ function initApp() {
   initLazyImages();
   initKeyboardNavigation();
   initThemeToggle();
+  initModals();
 
   // Initialize scroll animator
   window.scrollAnimator = new ScrollAnimator();
@@ -574,6 +575,65 @@ function initApp() {
 
 // Start initialization
 initApp();
+
+// ==========================================================================
+// Modal System
+// ==========================================================================
+function initModals() {
+  // Open modal buttons
+  document.addEventListener('click', (e) => {
+    const trigger = e.target.closest('[data-modal]');
+    if (!trigger) return;
+
+    const modalId = trigger.getAttribute('data-modal');
+    const modal = document.getElementById(modalId);
+    if (modal) {
+      openModal(modal);
+    }
+  });
+
+  // Close modal on overlay click
+  document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('modal-overlay')) {
+      closeModal(e.target);
+    }
+  });
+
+  // Close modal on close button click
+  document.addEventListener('click', (e) => {
+    const closeBtn = e.target.closest('.modal-close');
+    if (closeBtn) {
+      const modal = closeBtn.closest('.modal-overlay');
+      if (modal) closeModal(modal);
+    }
+  });
+
+  // Close modal on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const openModal = document.querySelector('.modal-overlay.open');
+      if (openModal) closeModal(openModal);
+    }
+  });
+}
+
+function openModal(modal) {
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // Focus trap
+  const focusableElements = modal.querySelectorAll(
+    'a[href], button, textarea, input, select, [tabindex]:not([tabindex="-1"])'
+  );
+  if (focusableElements.length > 0) {
+    focusableElements[0].focus();
+  }
+}
+
+function closeModal(modal) {
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+}
 
 // ==========================================================================
 // Export for Module Usage
@@ -593,6 +653,9 @@ if (typeof module !== 'undefined' && module.exports) {
     createElement,
     ScrollAnimator,
     copyToClipboard,
-    showToast
+    showToast,
+    openModal,
+    closeModal,
+    initModals
   };
 }
