@@ -178,12 +178,22 @@
   justify-content: center;
   background: linear-gradient(135deg, var(--primary-light), var(--accent-light));
   border-radius: var(--radius-lg);
-  color: var(--primary);
+  color: var(--white);
 }
 
 .value-icon svg {
   width: 36px;
   height: 36px;
+}
+
+/* Company Logo Image */
+.value-icon .company-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  background: var(--white);
+  padding: var(--space-xs);
 }
 
 .value-title {
