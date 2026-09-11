@@ -701,7 +701,7 @@
   justify-content: center;
   background: var(--primary-light);
   border-radius: var(--radius-md);
-  color: var(--primary);
+  color: var(--white);
   margin-bottom: var(--space-md);
 }
 
