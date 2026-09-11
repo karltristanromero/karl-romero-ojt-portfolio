@@ -118,6 +118,18 @@
       "summary": "Medical Certificate",
       "tags": ["certificate", "medical", "medical certificate"],
       "downloads": 0
+    },
+    {
+      "id": "ROMERO_CPE_Evaluation_Instrument_for_HTE.pdf",
+      "title": "Evaluation Instrument for HTE",
+      "description": "Evaluation form that rates the HTE based on a set criteria.",
+      "status": "completed",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_CPE_Evaluation_Instrument_for_HTE.pdf",
+      "date": "2026-09-11",
+      "summary": "Evaluation Instrument for HTE",
+      "tags": ["evaluation", "instrument", "HTE", "Host Training Establishment"],
+      "downloads": 0
     }
   ]
 }
