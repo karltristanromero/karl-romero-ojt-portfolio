@@ -187,9 +187,11 @@
     <section class="section values" aria-labelledby="values-title">
       <div class="container">
         <header class="section-header">
-          <p class="section-label">My OJT Company</p>
-          <h2 id="values-title" class="section-title">What Guides Me</h2>
-          <p class="section-description">Company details where I am currently rendering to.</p>
+          <p class="section-label">Company Profile</p>
+          <h2 id="values-title" class="section-title">Jump Solutions Incorporated</h2>
+          <p class="section-description">
+            A trusted Filipino-owned IT solutions provider and system integrator since 2011, delivering future-ready technologies across the Philippines. Specializing in implementation, architectural design, structured cabling, and preventive maintenance.
+          </p>
         </header>
 
         <div class="values-grid">
@@ -199,6 +201,10 @@
             </div>
             <h3 class="value-title">Jump Solutions Inc.</h3>
             <p class="value-description">Company Name</p>
+            <button class="btn btn-sm btn-outline company-profile-btn" data-modal="company-profile-modal" aria-label="View company profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              View Profile
+            </button>
           </article>
 
           <article class="value-card">
@@ -249,6 +255,51 @@
       </div>
     </section>
   </main>
+
+  <!-- Company Profile Modal -->
+  <div class="modal-overlay" id="company-profile-modal" role="dialog" aria-modal="true" aria-labelledby="company-modal-title">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title" id="company-modal-title">Company Profile</h3>
+        <button class="modal-close" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="company-profile-content">
+          <div class="company-profile-header">
+            <img src="assets/images/JUMP_LOGO.png" alt="Jump Solutions Inc. Logo" class="company-profile-logo">
+            <div class="company-profile-motto">
+              <p class="motto-primary">Empowering Business Through Integrated Technology Solutions</p>
+              <p class="motto-secondary">Your Trusted Reseller in Secure, Connected, and Future-Ready IT</p>
+            </div>
+          </div>
+
+          <div class="company-profile-section">
+            <h4 class="profile-section-title">About</h4>
+            <p class="profile-section-text">A trusted Filipino-owned IT solutions provider and system integrator delivering future-ready technologies across the Philippines since 2011. Driven by the mission of providing end-to-end solutions tailored to modern enterprise needs.</p>
+          </div>
+
+          <div class="company-profile-section">
+            <h4 class="profile-section-title">Core Competencies</h4>
+            <ul class="competencies-list">
+              <li>Implementation Services</li>
+              <li>Planning & Architectural Design</li>
+              <li>Training & User Education</li>
+              <li>Repair Services</li>
+              <li>Structured Cabling System</li>
+              <li>Preventive Maintenance</li>
+            </ul>
+          </div>
+
+          <div class="company-profile-section">
+            <h4 class="profile-section-title">Established</h4>
+            <p class="profile-section-text">2011 — Over a decade of providing integrated technology solutions to enterprises across the Philippines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer Placeholder -->
   <div id="footer-placeholder"></div>
