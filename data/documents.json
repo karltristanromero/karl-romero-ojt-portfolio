@@ -120,12 +120,12 @@
       "downloads": 0
     },
     {
-      "id": "ROMERO_CPE_Evaluation_Instrument_for_HTE.pdf",
+      "id": "ROMERO_EVALUATION_INSTRUMENT_FOR_HTE.pdf",
       "title": "Evaluation Instrument for HTE",
       "description": "Evaluation form that rates the HTE based on a set criteria.",
       "status": "completed",
       "type": "pdf",
-      "filePath": "../../assets/documents/ROMERO_CPE_Evaluation_Instrument_for_HTE.pdf",
+      "filePath": "../../assets/documents/ROMERO_EVALUATION_INSTRUMENT_FOR_HTE.pdf",
       "date": "2026-09-11",
       "summary": "Evaluation Instrument for HTE",
       "tags": ["evaluation", "instrument", "HTE", "Host Training Establishment"],
@@ -144,24 +144,24 @@
       "downloads": 0
     },
     {
-      "id": "ROMERO_EVAL_STUDENT_INTETN.pdf",
+      "id": "ROMERO_EVAL_STUDENT_INTERN.pdf",
       "title": "Evaluation Instrument for Student Intern",
       "description": "A document providing the evaluation of the HTE advisor for the student intern",
       "status": "completed",
       "type": "pdf",
-      "filePath": "../../assets/documents/ROMERO_EVAL_STUDENT_INTETN.pdf",
+      "filePath": "../../assets/documents/ROMERO_EVAL_STUDENT_INTERN.pdf",
       "date": "2026-10-27",
       "summary": "Evaluation Instrument for Student Intern",
       "tags": ["evaluation", "instrument", "student", "intern"],
       "downloads": 0
     },
     {
-      "id": "ROMERO_PERFORMANCE_EVALUTATION.pdf",
+      "id": "ROMERO_PERFORMANCE_EVALUATION.pdf",
       "title": "Performance Evaluation",
       "description": "A more concise evaluation instrument approved by the HTE advisor.",
       "status": "completed",
       "type": "pdf",
-      "filePath": "../../assets/documents/ROMERO_PERFORMANCE_EVALUTATION.pdf",
+      "filePath": "../../assets/documents/ROMERO_PERFORMANCE_EVALUATION.pdf",
       "date": "2026-10-27",
       "summary": "Performance Evaluation",
       "tags": ["performance", "evaluation", "performance evaluation"],
