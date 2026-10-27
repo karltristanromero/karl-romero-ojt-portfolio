@@ -130,6 +130,42 @@
       "summary": "Evaluation Instrument for HTE",
       "tags": ["evaluation", "instrument", "HTE", "Host Training Establishment"],
       "downloads": 0
+    },
+    {
+      "id": "ROMERO_CERTIFICATE_OF_COMPLETION.pdf",
+      "title": "Certificate of Completion",
+      "description": "The final document that formally declares my internship completion.",
+      "status": "completed",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_CERTIFICATE_OF_COMPLETION.pdf",
+      "date": "2026-10-27",
+      "summary": "Certificate of Completion",
+      "tags": ["completion", "certificate", "certificate of completion", "COC"],
+      "downloads": 0
+    },
+    {
+      "id": "ROMERO_EVAL_STUDENT_INTETN.pdf",
+      "title": "Evaluation Instrument for Student Intern",
+      "description": "A document providing the evaluation of the HTE advisor for the student intern",
+      "status": "completed",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_EVAL_STUDENT_INTETN.pdf",
+      "date": "2026-10-27",
+      "summary": "Evaluation Instrument for Student Intern",
+      "tags": ["evaluation", "instrument", "student", "intern"],
+      "downloads": 0
+    },
+    {
+      "id": "ROMERO_PERFORMANCE_EVALUTATION.pdf",
+      "title": "Performance Evaluation",
+      "description": "A more concise evaluation instrument approved by the HTE advisor.",
+      "status": "completed",
+      "type": "pdf",
+      "filePath": "../../assets/documents/ROMERO_PERFORMANCE_EVALUTATION.pdf",
+      "date": "2026-10-27",
+      "summary": "Performance Evaluation",
+      "tags": ["performance", "evaluation", "performance evaluation"],
+      "downloads": 0
     }
   ]
 }
